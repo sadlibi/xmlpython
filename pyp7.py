@@ -8,7 +8,7 @@ for provincia in provincias:
         localidades=provincia.findall("localidades/localidad")
         for localidad in localidades:
             idlocal=localidad.get("c")
-            if idlocal==1:
+            if idlocal=="1":
                 print (localidad.text)
 
 

@@ -9,6 +9,6 @@ for provincia in provincias:
         if (localidad.text)==local:
             idlocal=localidad.get("c")
             if idlocal=="1":
-                print (localidad.text, "es una ciudad grande de la provincia", nombre.text)
+                print ("Es una ciudad grande de la provincia", nombre.text)
             else:
-                print ("Es una ciudad pequeña de", nombre.text)
+                print ("Es una ciudad pequeña")
